@@ -83,5 +83,10 @@ output:
 ```
 
 ## How to Run this Project
-- Run this project in an IDEA.
+- Run this project in IDEA.
+- Run this project using `mvn` and `java` command:
+```shell
+mvn package -Dmaven.test.skip
+java -jar target/balance-0.0.1-SNAPSHOT.war
+```
 
