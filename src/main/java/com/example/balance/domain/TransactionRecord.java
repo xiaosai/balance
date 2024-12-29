@@ -19,6 +19,11 @@ public class TransactionRecord {
     private Long id;
 
     /**
+     * 事务 id
+     */
+    private String transactionId;
+
+    /**
      * 来源账户
      */
     private String sourceAccount;
