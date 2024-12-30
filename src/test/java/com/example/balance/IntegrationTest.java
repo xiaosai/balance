@@ -39,7 +39,7 @@ public class IntegrationTest {
     }
 
     @Test
-    void whenPerformIntegrationTest_shouldSuccess() throws Exception {
+    void whenIntegrationTest_shouldSuccess() throws Exception {
 
         String sourceAccount = "ACCOUNT_101";
         String targetAccount = "ACCOUNT_102";
